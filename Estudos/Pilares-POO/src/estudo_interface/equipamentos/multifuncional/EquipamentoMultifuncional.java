@@ -1,8 +1,8 @@
 package estudo_interface.equipamentos.multifuncional;
 
-import estudo_interface.equipamentos.impressora.Impressora;
 import estudo_interface.equipamentos.copiadora.Copiadora;
 import estudo_interface.equipamentos.digitalizadora.Digitalizadora;
+import estudo_interface.equipamentos.impressora.Impressora;
 
 public class EquipamentoMultifuncional implements Impressora, Copiadora, Digitalizadora {
     public void imprimir() {
